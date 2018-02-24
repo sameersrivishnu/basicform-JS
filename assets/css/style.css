@@ -1,0 +1,38 @@
+body
+{
+	background-color:#c1cdc1;
+}
+form
+{
+	background-color:#cdcdc1;
+	border-style: solid;
+	border-color:darkblue; 
+	border-width: 1px;
+	height:auto;
+	width:50%;
+	margin-bottom: 70px;
+	margin-left: 23%;
+	margin-top: 10%;
+}
+th,td
+{
+	padding: 2px;
+}
+th{
+	text-align: left;
+	padding-top: 2%;
+
+	}
+table
+{
+	padding-left: 2%;
+}
+@media screen and (max-width:750px)
+{
+	form
+	{
+		width:120%;
+		margin-left: 1%;
+	
+	}
+}
